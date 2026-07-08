@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Notiqflow</title>
+    <link>https://raw.githubusercontent.com/KyBry/notiqflow-releases/main/appcast.xml</link>
+    <description>Most recent updates to Notiqflow.</description>
+    <language>en</language>
+    <item>
+      <title>Notiqflow 0.2.0</title>
+      <pubDate>Wed, 08 Jul 2026 07:12:18 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Notiqflow 0.2.0</h2>
+<ul>
+  <li><strong>A fresh Brylabs look.</strong> The whole app has been redesigned around the Brylabs plum and gold palette.</li>
+  <li><strong>Faster, more accurate dictation.</strong> Parakeet v3 is now the default speech engine — quicker and more accurate for everyday dictation. Whisper is still selectable if you prefer it.</li>
+  <li><strong>Smarter AI cleanup.</strong> Text tidy-up now runs on Qwen3 for clearer, better-punctuated results.</li>
+  <li><strong>Automatic updates.</strong> From this version onward, Notiqflow checks for updates and installs them in the background, so you are always on the latest release.</li>
+</ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.2.0/Notiqflow.dmg"
+        sparkle:version="2"
+        sparkle:shortVersionString="0.2.0"
+        sparkle:edSignature="bAx8vaWLATZsS0OvyYhoV0iQ/AAxdQY4b6U/8Lc8oh76JnKqP26akq7OVCmFC08I7RW94WtNnbKGAq5P7b7wAQ=="
+        length="11729827"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
