@@ -6,26 +6,25 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.2.0</title>
-      <pubDate>Wed, 08 Jul 2026 07:12:18 +0000</pubDate>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>Notiqflow 0.2.1</title>
+      <pubDate>Wed, 08 Jul 2026 07:59:39 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.2.0</h2>
+<h2>Notiqflow 0.2.1</h2>
 <ul>
-  <li><strong>A fresh Brylabs look.</strong> The whole app has been redesigned around the Brylabs plum and gold palette.</li>
-  <li><strong>Faster, more accurate dictation.</strong> Parakeet v3 is now the default speech engine — quicker and more accurate for everyday dictation. Whisper is still selectable if you prefer it.</li>
-  <li><strong>Smarter AI cleanup.</strong> Text tidy-up now runs on Qwen3 for clearer, better-punctuated results.</li>
-  <li><strong>Automatic updates.</strong> From this version onward, Notiqflow checks for updates and installs them in the background, so you are always on the latest release.</li>
+  <li><strong>The setup window stays put.</strong> It now floats above your other windows, so it no longer slips behind System Settings while you grant permissions.</li>
+  <li><strong>Push-to-talk permission fix.</strong> When you turn on Input Monitoring, Notiqflow now offers a one-click relaunch so your shortcut activates straight away. Previously it could stay inactive — even after removing and re-adding the permission — until you restarted the app yourself.</li>
+  <li><strong>Clearer setup state.</strong> The menu and setup panel no longer show as ready while your shortcut isn't actually working yet.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.2.0/Notiqflow.dmg"
-        sparkle:version="2"
-        sparkle:shortVersionString="0.2.0"
-        sparkle:edSignature="bAx8vaWLATZsS0OvyYhoV0iQ/AAxdQY4b6U/8Lc8oh76JnKqP26akq7OVCmFC08I7RW94WtNnbKGAq5P7b7wAQ=="
-        length="11729827"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.2.1/Notiqflow.dmg"
+        sparkle:version="3"
+        sparkle:shortVersionString="0.2.1"
+        sparkle:edSignature="tHntdNDrUVEWN15iYzh+8E+N/gpK2BedjqBd9a/zOOTUZEYS2OmY5LG6D/8ek7mt3t02imZsJV7rlCTGpc68AQ=="
+        length="11734745"
         type="application/octet-stream" />
     </item>
   </channel>
