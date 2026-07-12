@@ -5,6 +5,26 @@
     <link>https://raw.githubusercontent.com/KyBry/notiqflow-releases/main/appcast.xml</link>
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
-    <!-- Releases temporarily pulled pending a critical fix. -->
+    <item>
+      <title>Notiqflow 0.2.2</title>
+      <pubDate>Sun, 12 Jul 2026 04:24:37 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>Notiqflow 0.2.2</h2>
+<ul>
+  <li><strong>Dictation stays dictation.</strong> AI cleanup no longer answers question-shaped speech or responds to requests intended for apps such as ChatGPT and Claude. Spoken questions and instructions are now preserved as polished text.</li>
+  <li><strong>Safer AI cleanup.</strong> A new faithfulness check automatically falls back to the original transcript if the local language model tries to introduce an unrelated response.</li>
+</ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.2.2/Notiqflow.dmg"
+        sparkle:version="4"
+        sparkle:shortVersionString="0.2.2"
+        sparkle:edSignature="nCIwAJMltF/1iNG3FHcnZd+QNV0fE4xvcZxcR4x4sWUcvbuYBQSdw/WUHzti3apXvjut0mn6NAhDChcdD2xlDA=="
+        length="11738530"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
