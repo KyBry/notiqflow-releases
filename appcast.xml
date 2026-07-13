@@ -6,23 +6,23 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.4.1</title>
-      <pubDate>Mon, 13 Jul 2026 10:40:18 +0000</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+      <title>Notiqflow 0.4.2</title>
+      <pubDate>Mon, 13 Jul 2026 12:11:09 +0000</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.4.1</h2>
+<h2>Notiqflow 0.4.2</h2>
 <ul>
-  <li><strong>Correction prompts now appear right where you're typing.</strong> When Notiqflow notices you fixing a dictated word, the "Always change…?" prompt now pops up in a small card directly above the word you corrected — no more glancing down at the Flow Bar. The card never steals focus, follows along if you keep refining the word, and hides while you're in another app. In apps that don't expose text positions, the prompt falls back to the Flow Bar as before.</li>
+  <li><strong>Far fewer correction prompts.</strong> The "Always change…?" card no longer appears for capitalization-only edits (like "trenches" → "Trenches") — those are sentence context, not dictation errors. Prompts are now reserved for genuinely niche words: terms the dictionary doesn't know, misrecognitions being fixed, brand-style casing like "SaaS" or "iPhone", or a fix you've made twice. Everyday one-off edits stay silent.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.1/Notiqflow.dmg"
-        sparkle:version="9"
-        sparkle:shortVersionString="0.4.1"
-        sparkle:edSignature="blPl/3dZcnIR7Xei8rPqHZ6ELzPpUd3GAN2x9CqLDIBJ/gKubJHZTOAbqkyzPCfbtF8r6GntJ98defKLOqfxAQ=="
-        length="20431995"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.2/Notiqflow.dmg"
+        sparkle:version="10"
+        sparkle:shortVersionString="0.4.2"
+        sparkle:edSignature="zuK9knnaQv4Iht+4ITTi6DDkuuHZKHNu5KLxu6Uv7OxIGk3Xw8MwAgeTTUjXZAyzNkWTyN1tCiOaxBcKVzJwDQ=="
+        length="20427028"
         type="application/octet-stream" />
     </item>
   </channel>
