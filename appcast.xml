@@ -6,26 +6,26 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.3.0</title>
-      <pubDate>Mon, 13 Jul 2026 04:09:50 +0000</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <title>Notiqflow 0.3.1</title>
+      <pubDate>Mon, 13 Jul 2026 05:23:21 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.3.0</h2>
+<h2>Notiqflow 0.3.1</h2>
 <ul>
-  <li><strong>Notiqflow learns your corrections.</strong> After dictation, spelling and capitalization corrections can be saved with your confirmation and applied to your very next dictation.</li>
-  <li><strong>You stay in control.</strong> When you correct a spelling, name, or phrase, Notiqflow asks whether it should always make that change. Choose <strong>Always</strong> or <strong>Not now</strong> without leaving the app you are typing in, then edit or remove saved replacements in Dictionary settings.</li>
-  <li><strong>A smaller, quieter Flow Bar.</strong> The normal bar is roughly half its previous width, and processing is represented by the animated waveform instead of status labels.</li>
-  <li><strong>Private by design.</strong> Correction learning briefly reads only the field Notiqflow just inserted into, stops after 30 seconds or when focus changes, and runs entirely on your Mac. It can be disabled in Settings &gt; Dictionary.</li>
+  <li><strong>More reliable correction learning.</strong> Corrections that change one or more words—such as “Notique Flow” to “Notiqflow”—now trigger a clear confirmation and can be applied to your very next dictation.</li>
+  <li><strong>Better dictionary control.</strong> Review, edit, star, import, or remove saved vocabulary and replacement rules directly in Notiqflow settings.</li>
+  <li><strong>A compact Flow Bar that stays where you put it.</strong> Drag the smaller Flow Bar to your preferred position; it now uses the waveform animation while processing instead of extra status text.</li>
+  <li><strong>Transparent, privacy-safe reliability metrics.</strong> Notiqflow can share anonymous feature usage, timings, and success or failure categories to help improve the app. It never sends audio, dictated text, correction words, dictionary contents, destination app names, or field contents, and can be disabled under Settings &gt; Privacy.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.3.0/Notiqflow.dmg"
-        sparkle:version="5"
-        sparkle:shortVersionString="0.3.0"
-        sparkle:edSignature="CRVata/wvttf/NKvkFWUtFvqgsQJkwkYruzZfGkecHSXGD+KBW0QcVhrmgFVopTOzsBfu+SwS0VLNottvPeWBw=="
-        length="19763033"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.3.1/Notiqflow.dmg"
+        sparkle:version="6"
+        sparkle:shortVersionString="0.3.1"
+        sparkle:edSignature="9kUbvLw4YTUXmr3tlMeeRLWr5lxYL2viBebJ6L+cOfLH6aAQPMhu9BhRnv6AEcL2hcU3TOfx8XlF8sXiQk0NCQ=="
+        length="19982949"
         type="application/octet-stream" />
     </item>
   </channel>
