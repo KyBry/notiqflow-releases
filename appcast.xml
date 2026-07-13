@@ -6,26 +6,25 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.3.1</title>
-      <pubDate>Mon, 13 Jul 2026 05:23:21 +0000</pubDate>
-      <sparkle:version>6</sparkle:version>
-      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <title>Notiqflow 0.3.2</title>
+      <pubDate>Mon, 13 Jul 2026 06:01:27 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.3.1</h2>
+<h2>Notiqflow 0.3.2</h2>
 <ul>
-  <li><strong>More reliable correction learning.</strong> Corrections that change one or more words—such as “Notique Flow” to “Notiqflow”—now trigger a clear confirmation and can be applied to your very next dictation.</li>
-  <li><strong>Better dictionary control.</strong> Review, edit, star, import, or remove saved vocabulary and replacement rules directly in Notiqflow settings.</li>
-  <li><strong>A compact Flow Bar that stays where you put it.</strong> Drag the smaller Flow Bar to your preferred position; it now uses the waveform animation while processing instead of extra status text.</li>
-  <li><strong>Transparent, privacy-safe reliability metrics.</strong> Notiqflow can share anonymous feature usage, timings, and success or failure categories to help improve the app. It never sends audio, dictated text, correction words, dictionary contents, destination app names, or field contents, and can be disabled under Settings &gt; Privacy.</li>
+  <li><strong>Report bugs without leaving Notiqflow.</strong> Use the new ladybug <strong>Report bug…</strong> action to send a summary, reproduction steps, severity, and optional reply email directly to the Notiqflow team.</li>
+  <li><strong>Privacy-conscious diagnostics.</strong> Reports include only the app version, macOS version, processor architecture, and build type shown in the form. Notiqflow never attaches audio, dictated text, dictionary contents, or destination-app data.</li>
+  <li><strong>Clear follow-up references.</strong> Successful reports return a reference code so you can identify the report if you need to follow up.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.3.1/Notiqflow.dmg"
-        sparkle:version="6"
-        sparkle:shortVersionString="0.3.1"
-        sparkle:edSignature="9kUbvLw4YTUXmr3tlMeeRLWr5lxYL2viBebJ6L+cOfLH6aAQPMhu9BhRnv6AEcL2hcU3TOfx8XlF8sXiQk0NCQ=="
-        length="19982949"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.3.2/Notiqflow.dmg"
+        sparkle:version="7"
+        sparkle:shortVersionString="0.3.2"
+        sparkle:edSignature="lpmb5ix/2pJ6ccncUEGdHi+UfX2dMlNre6M78+JuH0SBPBNTcgjh7emy6x17+VuQ8f8hVBjenYnXYJp4dEfSCA=="
+        length="20103716"
         type="application/octet-stream" />
     </item>
   </channel>
