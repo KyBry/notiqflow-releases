@@ -6,24 +6,25 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.2.2</title>
-      <pubDate>Sun, 12 Jul 2026 04:24:37 +0000</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <title>Notiqflow 0.3.0</title>
+      <pubDate>Mon, 13 Jul 2026 03:46:11 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.2.2</h2>
+<h2>Notiqflow 0.3.0</h2>
 <ul>
-  <li><strong>Dictation stays dictation.</strong> AI cleanup no longer answers question-shaped speech or responds to requests intended for apps such as ChatGPT and Claude. Spoken questions and instructions are now preserved as polished text.</li>
-  <li><strong>Safer AI cleanup.</strong> A new faithfulness check automatically falls back to the original transcript if the local language model tries to introduce an unrelated response.</li>
+  <li><strong>Notiqflow learns your corrections.</strong> After dictation, high-confidence spelling and capitalization corrections can be learned automatically and applied to your very next dictation.</li>
+  <li><strong>You stay in control.</strong> Learned replacements can be undone immediately, then edited or removed from Dictionary settings. Phrase and supported writing-style preferences always ask before being saved.</li>
+  <li><strong>Private by design.</strong> Correction learning briefly reads only the field Notiqflow just inserted into, stops after 30 seconds or when focus changes, and runs entirely on your Mac. It can be disabled in Settings &gt; Dictionary.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.2.2/Notiqflow.dmg"
-        sparkle:version="4"
-        sparkle:shortVersionString="0.2.2"
-        sparkle:edSignature="nCIwAJMltF/1iNG3FHcnZd+QNV0fE4xvcZxcR4x4sWUcvbuYBQSdw/WUHzti3apXvjut0mn6NAhDChcdD2xlDA=="
-        length="11738530"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.3.0/Notiqflow.dmg"
+        sparkle:version="5"
+        sparkle:shortVersionString="0.3.0"
+        sparkle:edSignature="T6ahKE6W/xRYE0w50LIPfo05BicTgdciC+pEfczr/6tN7rIoUufZ3AnuxsWQAascAzbegL2c7rPFtLi5mUWwCQ=="
+        length="19762556"
         type="application/octet-stream" />
     </item>
   </channel>
