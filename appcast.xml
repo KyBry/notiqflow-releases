@@ -6,23 +6,28 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.4.2</title>
-      <pubDate>Mon, 13 Jul 2026 12:11:09 +0000</pubDate>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+      <title>Notiqflow 0.4.3</title>
+      <pubDate>Fri, 17 Jul 2026 00:11:03 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.4.2</h2>
+<h2>Notiqflow 0.4.3</h2>
+<p>This security and privacy update strengthens Notiqflow behind the scenes:</p>
 <ul>
-  <li><strong>Far fewer correction prompts.</strong> The "Always change…?" card no longer appears for capitalization-only edits (like "trenches" → "Trenches") — those are sentence context, not dictation errors. Prompts are now reserved for genuinely niche words: terms the dictionary doesn't know, misrecognitions being fixed, brand-style casing like "SaaS" or "iPhone", or a fix you've made twice. Everyday one-off edits stay silent.</li>
+  <li><strong>Stronger protection for your local data.</strong> Saved dictation history, dictionary entries, snippets, preferences, and other private app data now receive additional protection on your Mac.</li>
+  <li><strong>Safer handling of recordings and credentials.</strong> Temporary audio and sensitive in-memory data are cleared more promptly, while credentials receive stricter Keychain protection.</li>
+  <li><strong>Safer clipboard and support flows.</strong> Sensitive clipboard copies expire automatically, and bug reports use a more tightly controlled delivery path.</li>
+  <li><strong>Verified app resources and updates.</strong> Downloaded model files and the release process now have additional integrity and vulnerability checks.</li>
 </ul>
+<p>No action is required after installing the update. Existing local data is migrated automatically.</p>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.2/Notiqflow.dmg"
-        sparkle:version="10"
-        sparkle:shortVersionString="0.4.2"
-        sparkle:edSignature="zuK9knnaQv4Iht+4ITTi6DDkuuHZKHNu5KLxu6Uv7OxIGk3Xw8MwAgeTTUjXZAyzNkWTyN1tCiOaxBcKVzJwDQ=="
-        length="20427028"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.3/Notiqflow.dmg"
+        sparkle:version="11"
+        sparkle:shortVersionString="0.4.3"
+        sparkle:edSignature="IR74mIgxmaDqEVm2hyCgBT5X5xIK1lpq+xs/PeqCclGNzdcqDOrege31s0Pfsvkiy7o9BkEZR/laz6Y+/Ou4Cg=="
+        length="20520936"
         type="application/octet-stream" />
     </item>
   </channel>
