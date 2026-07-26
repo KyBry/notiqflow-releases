@@ -6,50 +6,26 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.4.5</title>
-      <pubDate>Sun, 26 Jul 2026 04:04:09 +0000</pubDate>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
+      <title>Notiqflow 0.4.6</title>
+      <pubDate>Sun, 26 Jul 2026 04:53:03 +0000</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.4.5</h2>
-<p>Dictation is substantially faster. The AI cleanup pass was rebuilding and re-reading its entire ~700-token instruction prompt on every single dictation — measured at roughly 90% of the wait between releasing the key and seeing text. It now reads that prompt once at launch and reuses it.</p>
-<p><strong>Measured on an M3, median across a fixed test corpus: AI cleanup went from 2400 ms to 510 ms.</strong> Short dictations improved most — “yes” used to cost the same 2.2 seconds as a full paragraph.</p>
-<h3>Faster</h3>
+<h2>Notiqflow 0.4.6</h2>
+<p><strong>This is an important fix.</strong> If dictation stopped working for you on 0.4.3 or later, this release repairs it.</p>
 <ul>
-  <li><strong>AI cleanup reuses its prompt.</strong> The unchanging instructions and examples are processed once at launch instead of on every dictation.</li>
-  <li><strong>The speech model warms up at launch.</strong> The first dictation after opening Notiqflow no longer pays the model’s one-time startup cost.</li>
-  <li><strong>Accessibility and clipboard work moved off the critical path.</strong> Reading where your cursor is now happens while the model transcribes, rather than after. Slow or busy apps can no longer stall the paste indefinitely.</li>
-  <li><strong>Cleanup gives up rather than hanging.</strong> A pass that exceeds its time budget falls back to the fast rule-based result instead of making you wait.</li>
-  <li><strong>History is saved in the background</strong> instead of during the pause before your text appears.</li>
+  <li><strong>The speech model loads again.</strong> Since 0.4.3, Notiqflow checked the speech model's files in the wrong folder before loading it. The check always failed, so the model never loaded and dictation was unavailable — reported on screen as <em>"Trusted model file is missing"</em> or, on 0.4.5, <em>"parakeet-v3 couldn't be removed"</em>. Nothing was ever wrong with your downloaded model, and this update needs no re-download.</li>
+  <li><strong>Clearer messages if a model really is damaged.</strong> Verification failures now name the full location that was checked, instead of just a file name.</li>
 </ul>
-<h3>Fixed</h3>
-<ul>
-  <li><strong>Cancelling mid-cleanup no longer freezes the hotkey.</strong> Pressing cancel while the AI was working left dictation unusable until the abandoned work finished on its own. It now stops within a fraction of a second.</li>
-  <li><strong>Interrupted model downloads repair themselves.</strong> A speech model download cut short by quitting, sleeping, or losing connection was treated as complete and failed every launch afterwards with a “Trusted model file is missing” error. Notiqflow now detects the incomplete copy, discards it, and re-downloads. Setup can also be retried without restarting.</li>
-</ul>
-<h3>More accurate</h3>
-<ul>
-  <li><strong>Your dictionary now tells the AI what a word sounds like</strong>, not just how to spell it — so “robin” can actually become “Robyn”. Previously the model only ever saw the target spelling.</li>
-  <li><strong>Vocabulary entries work with AI cleanup switched off.</strong> Terms added for spelling alone now correct their own casing (and close misspellings of longer words) deterministically.</li>
-  <li><strong>Learned writing style survives AI cleanup.</strong> Preferences like the serial comma or contractions were applied before the model ran and could be quietly undone by it; they are now reapplied afterwards and described to the model up front.</li>
-  <li><strong>Spoken punctuation works without the AI.</strong> “comma”, “period”, “question mark” and friends are now handled by the fast rule-based pass too, with care taken not to rewrite ordinary phrases like “a period of time”.</li>
-  <li><strong>Silence is trimmed from each recording</strong>, which stops the speech model inventing filler like “Thank you.” out of the pause before you start talking.</li>
-  <li><strong>Optional microphone conditioning</strong> (echo cancellation, automatic gain control, noise suppression) is on by default and can be turned off in Settings ▸ Model.</li>
-</ul>
-<h3>New</h3>
-<ul>
-  <li><strong>Settings ▸ Speed</strong> shows where your time actually goes: typical delay from key release to text, split across speech recognition and AI cleanup. Timings only, kept in memory for the session, never saved or sent anywhere.</li>
-  <li><strong>Settings ▸ Cleanup</strong> has an experimental option to let the AI see a little of the text around your cursor for better capitalization and sentence continuation. Off by default — on the current model it sometimes repeats that text back into your document, and while Notiqflow detects this and falls back to the plain cleanup, it isn’t ready to be on for everyone.</li>
-</ul>
-<p>Everything still runs entirely on your Mac.</p>
+<p>Update and dictation works again immediately — no re-download, no re-granting permissions.</p>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.5/Notiqflow.dmg"
-        sparkle:version="13"
-        sparkle:shortVersionString="0.4.5"
-        sparkle:edSignature="ANTwY+Hx8qlXUs0blDIxytZ54TPDndOxCT4iKQkUAFFGGj/1KoXNPgGsEJ4ab9cSkIh3enqhHn33LZdG0NnTDA=="
-        length="20627145"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.6/Notiqflow.dmg"
+        sparkle:version="14"
+        sparkle:shortVersionString="0.4.6"
+        sparkle:edSignature="yXjNDWBW7lgFUC815tXztDfkixkCBnM+LlHhQXji67qxkg+/dE57wuOFm2H5D3n5bMh00LHKeGccYqT4jfe4Dg=="
+        length="20626670"
         type="application/octet-stream" />
     </item>
   </channel>
