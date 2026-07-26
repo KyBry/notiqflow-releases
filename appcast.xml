@@ -6,26 +6,28 @@
     <description>Most recent updates to Notiqflow.</description>
     <language>en</language>
     <item>
-      <title>Notiqflow 0.4.6</title>
-      <pubDate>Sun, 26 Jul 2026 04:53:03 +0000</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
+      <title>Notiqflow 0.4.7</title>
+      <pubDate>Sun, 26 Jul 2026 10:29:09 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.4.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<h2>Notiqflow 0.4.6</h2>
-<p><strong>This is an important fix.</strong> If dictation stopped working for you on 0.4.3 or later, this release repairs it.</p>
+<h2>Notiqflow 0.4.7</h2>
+<p><strong>This update restores dictation for people whose microphone stopped producing text after 0.4.5.</strong></p>
 <ul>
-  <li><strong>The speech model loads again.</strong> Since 0.4.3, Notiqflow checked the speech model's files in the wrong folder before loading it. The check always failed, so the model never loaded and dictation was unavailable — reported on screen as <em>"Trusted model file is missing"</em> or, on 0.4.5, <em>"parakeet-v3 couldn't be removed"</em>. Nothing was ever wrong with your downloaded model, and this update needs no re-download.</li>
-  <li><strong>Clearer messages if a model really is damaged.</strong> Verification failures now name the full location that was checked, instead of just a file name.</li>
+  <li><strong>Voice Isolation is now opt-in.</strong> Some Mac audio configurations accepted the Voice Isolation setup but then delivered no usable microphone samples. Notiqflow now uses the reliable standard microphone path by default.</li>
+  <li><strong>Silent audio capture recovers automatically.</strong> If Voice Isolation stalls during a recording, Notiqflow switches to the standard microphone without making you repeat the dictation.</li>
+  <li><strong>Recording failures are no longer silent.</strong> A held Fn dictation that captures too little audio now shows a clear error instead of being mistaken for an accidental tap.</li>
+  <li><strong>Model readiness is checked before recording.</strong> Notiqflow now tells you immediately if the speech engine is not ready.</li>
 </ul>
-<p>Update and dictation works again immediately — no re-download, no re-granting permissions.</p>
+<p>No settings or permissions need to be reset after updating.</p>
       ]]></description>
       <enclosure
-        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.6/Notiqflow.dmg"
-        sparkle:version="14"
-        sparkle:shortVersionString="0.4.6"
-        sparkle:edSignature="yXjNDWBW7lgFUC815tXztDfkixkCBnM+LlHhQXji67qxkg+/dE57wuOFm2H5D3n5bMh00LHKeGccYqT4jfe4Dg=="
-        length="20626670"
+        url="https://github.com/KyBry/notiqflow-releases/releases/download/v0.4.7/Notiqflow.dmg"
+        sparkle:version="15"
+        sparkle:shortVersionString="0.4.7"
+        sparkle:edSignature="7H/C7QAq5RJiTQmagkv7fziiU0IcmN6h7FqF9pbLVWwzrgdB4AyjtDrPZxLvY6bzMxGM0VVMW4aTikSo9g7RAQ=="
+        length="20627778"
         type="application/octet-stream" />
     </item>
   </channel>
